@@ -15,8 +15,14 @@ Set-Location Summit2019:\ | Out-Null
 Write-Output "Example - root object"
 Get-ChildItem
 
-Write-Output "`nExample - speakers"
-Get-ChildItem Summit2019:\Speakers | Select-Object -First 5
+Write-Output "`nExample - Agenda"
+Get-ChildItem Summit2019:\Agenda
 
-Write-Output "`nExample - speakers - All Information"
-Get-ChildItem Summit2019:\Speakers | Select-Object -First 5 -Property *
+Write-Output "`nExample - Agenda - All Information"
+Get-ChildItem Summit2019:\Agenda | Select-Object -Property Name, Sessions | Format-Table
+
+Write-Output "`nExample - Agenda Tuesday"
+Get-ChildItem 'Summit2019:\Agenda\Day 2 - Tue' | Select-Object -First 5
+
+Write-Output "`nExample - Agenda Tuesday"
+Get-ChildItem 'Summit2019:\Agenda\Day 2 - Tue' | Select-Object -First 5 -Property *

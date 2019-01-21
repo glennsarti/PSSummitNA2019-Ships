@@ -63,3 +63,21 @@ As per the docs, remember that all SHIPS objects have a constructor with one str
   - Not no `Get-ChildItem` method
 
 * Modify the `Speakers` object to output the `Speaker` objects in `Get-ChildItem`.  This is how objects are enumerated by the user
+
+## Step 4
+
+* Create AgendaTrackSummary and AgendaSession objects
+
+  - You can use the same class, but with a different name and private/internal properties to modify what it looks like.  For example, Instead of creating one class for the Sessions on Monday and another for the sessions on Tuesday, we can just a class called AgendaTrack and then filter what sessions it shows.
+
+  - This is an example of using a more complicated constructor.  But notice we still just pass throught the name via `: base($name)`
+
+* Directories can have public properties as well, not just leafs
+
+* We have to use the Session ID for Agenda sessions
+
+  - Session Titles may not be unique
+
+  - Session Titles may contain illegal characters for a Leaf Name
+
+* Also added to the DAG, Agenda by category e.g. Automate All the Things or General
