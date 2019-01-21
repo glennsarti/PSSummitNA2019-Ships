@@ -51,3 +51,15 @@ Just enough so that we can load the module and map a PS Drive
 As per the docs, remember that all SHIPS objects have a constructor with one string parameter which is unique within the parent
 
 > ... types have a constructor with one string parameter, which represents as a node name. The name is mandatory and must be unique under the same parent node
+
+## Step 3
+
+* This module uses a static data file (JSON).  Create a private helper function to load that into memory to speed up searches
+
+* Create the Speaker leaf objects
+
+  - Public properties are seen by the user
+
+  - Not no `Get-ChildItem` method
+
+* Modify the `Speakers` object to output the `Speaker` objects in `Get-ChildItem`.  This is how objects are enumerated by the user

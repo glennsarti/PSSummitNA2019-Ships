@@ -15,5 +15,8 @@ Set-Location Summit2019:\ | Out-Null
 Write-Output "Example - root object"
 Get-ChildItem
 
-Write-Output "`nExample - speakers - Nothing yet"
-Get-ChildItem Summit2019:\Speakers | Measure-Object
+Write-Output "`nExample - speakers"
+Get-ChildItem Summit2019:\Speakers | Select-Object -First 5
+
+Write-Output "`nExample - speakers - All Information"
+Get-ChildItem Summit2019:\Speakers | Select-Object -First 5 -Property *

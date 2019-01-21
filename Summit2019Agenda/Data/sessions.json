@@ -1,0 +1,2993 @@
+{
+  "sessions": [{
+    "id": 61502,
+    "name": "Breakfast",
+    "component_id": 14445,
+    "start_time": 1556550000,
+    "end_time": 1556553600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eJoin us for a hot breakfast.\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 56,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 131394, 134668, 135737, 135732, 135331, 135334, 135016, 133522, 131295, 132543, 131306, 131269, 125897, 125966, 125987, 125953, 125949, 121182, 118492, 105923, 108187, 106928, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61503,
+    "name": "Welcome",
+    "component_id": 14445,
+    "start_time": 1556553600,
+    "end_time": 1556555400,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eDESCRIPTION\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 57,
+    "item_ids": [115228],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 131394, 134668, 135737, 135732, 135674, 135331, 135016, 133522, 131295, 132543, 131306, 131269, 129549, 125897, 125966, 125989, 125987, 125953, 125949, 121182, 118492, 105923, 108187, 106928, 106179, 105989, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61504,
+    "name": "Keynote: You're Mastering the Shell. What Next?",
+    "component_id": 14445,
+    "start_time": 1556555400,
+    "end_time": 1556557200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eSo you're getting your hands wrapped around PowerShell - great! You're on your way to becoming a master of automation! Now, just sit back, relax, and... oh, wait. You ain't done, yet. Our industry continues to shift and evolve, and there are some key directions you need to think about, depending on the type of industry you're in, and where you think you want your career to go. Join Don Jones for an insightful look into the various states of our industry, and for suggestions on exactly where to point your learning efforts in the next few years.\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 58,
+    "item_ids": [115227],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 131394, 134668, 135737, 135732, 135674, 135331, 135334, 133522, 131295, 132543, 131306, 131269, 129549, 125897, 125966, 125989, 125987, 125953, 125949, 121182, 118492, 117173, 105923, 108187, 106928, 106179, 105989, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61505,
+    "name": "Software Development in an Age of Social Responsibility",
+    "component_id": 14445,
+    "start_time": 1556559000,
+    "end_time": 1556563500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eDESCRIPTION\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 59,
+    "item_ids": [115230],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 131394, 134668, 135737, 135732, 135674, 135331, 125953, 135334, 133522, 131295, 132543, 131306, 131269, 129549, 125897, 125966, 125989, 125987, 125949, 121182, 118492, 117173, 105923, 106928, 106179, 105989, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61506,
+    "name": "Lunch",
+    "component_id": 14445,
+    "start_time": 1556564400,
+    "end_time": 1556568000,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for one of our famously excellent buffet lunches\u003c/div\u003e",
+    "order_value": 60,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 131394, 134668, 135737, 135732, 135674, 135331, 135334, 133522, 131295, 132543, 131306, 131269, 129549, 125897, 125966, 125989, 125987, 125953, 125949, 121182, 118492, 117173, 105923, 108187, 106928, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61507,
+    "name": "TBA with Lee Holmes",
+    "component_id": 14445,
+    "start_time": 1556568000,
+    "end_time": 1556571600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eTBA bit from Lee Holmes\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 61,
+    "item_ids": [115229],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 134668, 135737, 135732, 135674, 125953, 135334, 133522, 131306, 131269, 129549, 125897, 125966, 125989, 125987, 125949, 121182, 118492, 117173, 105923, 106928, 106179, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61508,
+    "name": "TBA",
+    "component_id": 14445,
+    "start_time": 1556573400,
+    "end_time": 1556577000,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eTBA bit from TBA\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 62,
+    "item_ids": [115231],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 133522, 134668, 135737, 135732, 135674, 125953, 135334, 131306, 131269, 125966, 125989, 125987, 125949, 121182, 118492, 117173, 105923, 106928, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61509,
+    "name": "Lightning Demos",
+    "component_id": 14445,
+    "start_time": 1556578800,
+    "end_time": 1556584200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eDESCRIPTION\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 63,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 133522, 131394, 134668, 135737, 135732, 135674, 135331, 125953, 135334, 132543, 131306, 131269, 125897, 125966, 125989, 125987, 125949, 121182, 118492, 117173, 105923, 106928, 106179, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11604,
+      "component_id": 14444,
+      "name": "Center Hall B",
+      "item_ids": [],
+      "session_ids": [61503, 61504, 61505, 61507, 61508, 61509],
+      "map_regions": [{
+        "id": 4587,
+        "map_id": 727,
+        "region_id": 11604,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[229.1,341.28],[229.1,625.68],[759.98,625.68],[759.98,341.28],[229.1,341.28]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61730,
+    "name": "Monday Evening Reception",
+    "component_id": 14445,
+    "start_time": 1556584200,
+    "end_time": 1556595000,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eJoin us for a relaxed evening of socializing, board and card games, mingling, and more. Be sure to download the latest version of The Summiteer's Manual (http://leanpub.com/summiteermanual) for the full scoop on everything we've got planned. We guarantee there'll be something to enjoy for everyone!\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 70,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 133522, 134668, 135737, 135732, 135674, 135331, 135334, 131306, 131269, 125897, 125966, 125989, 125987, 125953, 125949, 121182, 118492, 117173, 105923, 106928, 106179, 105989, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [{
+      "id": 60304,
+      "name": "Links",
+      "properties": [{
+        "id": 81441,
+        "name": "Summiteer Manual",
+        "picture_url": "https://cdn.filestackcontent.com/hcTwG9hoRSOwpieFjkV2",
+        "url": "http://leanpub.com/summiteermanual",
+        "order_value": "0",
+        "web_platform": "native",
+        "forward_data": false
+      }]
+    }],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }, {
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61513,
+    "name": "Breakfast",
+    "component_id": 14445,
+    "start_time": 1556636400,
+    "end_time": 1556640000,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for a hot breakfast. We'll have announcements and housekeeping at 8:30am - you definitely don't want to miss those!\u003c/div\u003e",
+    "order_value": 67,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [124882, 136793, 133522, 134668, 135737, 135732, 135331, 135334, 132543, 131269, 125897, 125966, 125987, 125953, 125949, 121182, 105923, 118492, 117173, 106928, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61461,
+    "name": "Securing PowerShell: Hands-On Lab",
+    "component_id": 14445,
+    "start_time": 1556640000,
+    "end_time": 1556646300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eEvery year at the PowerShell Summit Lee Holmes amazes us with his security talk. Attend this session after Lee's to see how you, too, can implement PowerShell security features in your environment. This will be a hands-on session where you are invited to follow along to do script block logging, system-wide transcription, constrained endpoints (JEA), and more. Not only that, we'll do it on Windows, MacOS, and Linux! Leave with techniques you can use today.\u003c/div\u003e",
+    "order_value": 15,
+    "item_ids": [115236],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 131487, 131269, 127897, 126645, 108187, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61464,
+    "name": "Introduction to Serverless Functions",
+    "component_id": 14445,
+    "start_time": 1556640000,
+    "end_time": 1556646300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eI've spent a lot of time working with serverless for work, using PowerShell, C#, C# invoking PowerShell, and leveraging message queue support, and REST APIs. These are a great tool for the PowerShell community to leverage. I'd like to present this to people so that they can get started more quickly with less guesswork, and leverage my experience to fast forward their onramp to Azure Functions and AWS Lambda.\u003c/div\u003e",
+    "order_value": 18,
+    "item_ids": [115256],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135732, 135331, 135334, 131295, 106909, 105989, 118492],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61475,
+    "name": "PowerShell Universal Dashboard from start to finish",
+    "component_id": 14445,
+    "start_time": 1556640000,
+    "end_time": 1556646300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn this session we will take a deep dive into the PowerShell Universal Dashboard module and use it to build an interactive website, expose a REST API and collect data on a schedule to feed our web service. We will go through how to setup a new dashboard, organize the layout and add controls. From there we will expose REST APIs around existing cmdlets and utilize them from within the dashboard and from other processes. Finally, we will consume data from elsewhere using existing modules to feed into our dashboard and REST API. \r\u003cbr\u003e\r\u003cbr\u003e# Topics Covered\r\u003cbr\u003e\r\u003cbr\u003e- Building and hosting web services\r\u003cbr\u003e- Designing and developing web sites with PowerShell\r\u003cbr\u003e- Developing and exposing REST APIs that are developed in PowerShell\r\u003cbr\u003e- Collecting data on a schedule to be used within our web service\r\u003cbr\u003e- Data caching and collection \r\u003cbr\u003e- General Architecture of Universal Dashboard\u003c/div\u003e",
+    "order_value": 29,
+    "item_ids": [115232],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135676, 135674, 133522, 132543, 105923, 117173, 106928, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61494,
+    "name": "Writing Compiled PowerShell Cmdlets",
+    "component_id": 14445,
+    "start_time": 1556640000,
+    "end_time": 1556646300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePowerShell is great because it abstracts a lot of the \"developery\" stuff away from the person writing PowerShell code, and lets them focus on writing scripts and modules. That's great! That is, until you have to want to do something that PowerShell won't let you do, or you want to put a PowerShell front end on some C# code your devs developed, or your end users keep modifying parts of the scripts you're deploying since they can just open them in notepad and edit them.\r\u003cbr\u003e\r\u003cbr\u003eWriting compiled PowerShell cmdlets is easier than a lot of people think, and a seasoned PowerShell Pro will pick it up quickly.\u003c/div\u003e",
+    "order_value": 48,
+    "item_ids": [115269],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 135676, 131394, 135821, 125953, 129549, 128004, 125966, 125989, 125987, 125949, 118492, 121182, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61735,
+    "name": "OnRamp Day 1",
+    "component_id": 14445,
+    "start_time": 1556640000,
+    "end_time": 1556668800,
+    "overview": null,
+    "order_value": 75,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11605,
+      "component_id": 14444,
+      "name": "409 OnRamp Track",
+      "item_ids": [],
+      "session_ids": [61737, 61735, 61736],
+      "map_regions": [{
+        "id": 4594,
+        "map_id": 728,
+        "region_id": 11605,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[601.4775,455.2125],[601.4775,558.195],[677.595,558.195],[677.595,455.2125],[601.4775,455.2125]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6452,
+      "component_id": 14445,
+      "name": "OnRamp",
+      "tag": "ONRAM",
+      "color": "#ffffff"
+    }]
+  }, {
+    "id": 61451,
+    "name": "Parselmouth - bending the PowerShell language",
+    "component_id": 14445,
+    "start_time": 1556647200,
+    "end_time": 1556649900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eI want to introduce the audience to the high-level design of the tokenizer, parser and compiler in PowerShell Core, and then take it a step further - during the course of the presentation we're going to introduce and _implement a whole new operator in PowerShell_\r\u003cbr\u003e\r\u003cbr\u003eOnly the first few minutes will be slides and introduction, the remaining time we'll use to dig into the PowerShell Core source code, live-code our intended changes with input from the audience, and finally compile and demo our new out-of-the-blue language feature.\u003c/div\u003e",
+    "order_value": 5,
+    "item_ids": [115259],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 135821, 129549, 125987, 125949, 121182, 105989],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61468,
+    "name": "Firewall Evasion and Remote Access with OpenSSH",
+    "component_id": 14445,
+    "start_time": 1556647200,
+    "end_time": 1556649900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eOpenSSH is much more than just remote terminal access to servers, it provides a full suite of remote connectivity methods to your network and its services. In this session, we will look at how to use OpenSSH and its forwarding, tunneling and VPN capabilities so that we can reach securely reach network services that are behind firewalls and other security boundaries. Common use cases for these techniques are cloud jump boxes, secure access into segmented networks and being able to get remote access and move data around in poorly secured networks....these tips are things that will likely get you some extra attention from your security team\r\u003cbr\u003e\r\u003cbr\u003e* We will look at the following techniques\r\u003cbr\u003e  * Accessing remote application services with SSH Tunneling\r\u003cbr\u003e  * Accessing remote networks with SSH-based VPN\r\u003cbr\u003e  * Building SSH connections for multi-hop remote access using ProxyHosts\r\u003cbr\u003e  * Proxying HTTP/HTTPS connections with SocksProxy\r\u003cbr\u003e  * Using aliases to store these advanced configurations for easy use\r\u003cbr\u003e  * Controlling and preventing TCP tunneling\u003c/div\u003e",
+    "order_value": 22,
+    "item_ids": [115235],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 135331, 125953, 131295, 108187, 106928, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61482,
+    "name": "Sipping psake: Creating a Build and Release Pipeline for PowerShell",
+    "component_id": 14445,
+    "start_time": 1556647200,
+    "end_time": 1556649900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e[psake](https://github.com/psake/psake) is a build automation tool written in PowerShell. It uses a simple Domain Specific Language (DSL) to define a series of steps, dependencies, and conditions to execute as part of a build and release process. This talk will be an overview of psake itself and how to use it as part of a PowerShell module development workflow.\r\u003cbr\u003e\r\u003cbr\u003eI will also show how psake tasks can be packaged and shipped in separate PowerShell modules. Using these shared tasks reduces the boilerplate scaffolding needed in most PowerShell module projects and help enforce a consistent module structure. This consistency ultimately benefits the community and assists in building high-quality PowerShell modules.\u003c/div\u003e",
+    "order_value": 36,
+    "item_ids": [115237],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131487, 135674, 132543, 131269, 106909, 128004, 125897, 125966, 105923, 117173, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61501,
+    "name": "Demystifying Microsoft's Cloud Automation products",
+    "component_id": 14445,
+    "start_time": 1556647200,
+    "end_time": 1556649900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAzure offers an evergrowing suite of products \u0026 services to remove repetitive tasks from our daily grind. This session assumes the perspective of a Cloud/IT Professional with the vision to automate anything with whichever tools we have available.\r\u003cbr\u003e\r\u003cbr\u003eJaap will dive into Azure Automation, Microsoft Flow, Azure Functions and more. What are they, how do they relate to each other and what are the pros and cons of using each product? By looking at and understanding how we can leverage the Cloud Automation tools that are available to us today we will be able to work less tomorrow! Warning: Contains code!\u003c/div\u003e",
+    "order_value": 55,
+    "item_ids": [115247],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 135737, 135732, 105923, 126645, 125989, 105989, 118492],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61510,
+    "name": "Lunch",
+    "component_id": 14445,
+    "start_time": 1556650800,
+    "end_time": 1556654400,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for one of our famously excellent buffet lunches\u003c/div\u003e",
+    "order_value": 64,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 134668, 135732, 135331, 132543, 131269, 125897, 125966, 125953, 125949, 121182, 118492, 105923, 108187, 106928, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61466,
+    "name": "It’s PowerShell In the Cloud – Welcome to Azure Cloud Shell",
+    "component_id": 14445,
+    "start_time": 1556654400,
+    "end_time": 1556657100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAs more organizations move towards the cloud and using Microsoft Azure, there is a need to leverage our existing practices in that environment. That is where Azure Cloud Shell comes in. Azure Cloud Shell provides a CLI for administrators into their Azure subscription resources. Access to Azure Cloud Shell is available through a variety of methods including the Azure Portal and shell.azure.com. Admins can choose their environment: bash or PowerShell.\r\u003cbr\u003e \r\u003cbr\u003eFor this session, the focus will be on using PowerShell through Azure Cloud Shell. It will begin with an introduction to Azure Cloud Shell for an understanding of the platform, uses, features, and limitations. Discussion of Use cases will include locked down admin workstations, rotating devices, and non-Windows device usage. Then we'll dive into working with Azure Cloud Shell from setup to Git to the Cloud Shell editor.\r\u003cbr\u003e \r\u003cbr\u003eDemos planned include:\r\u003cbr\u003e-Initial setup including Azure File Storage\r\u003cbr\u003e-Command discovery\r\u003cbr\u003e-Installing custom modules from PowerShell Gallery\r\u003cbr\u003e-Working with Azure commands\r\u003cbr\u003e-Uploading resources to Azure File Storage for use in Azure Cloud Shell\r\u003cbr\u003e-Using SSH for remoting to VMs\r\u003cbr\u003e-Working with Git Repos\r\u003cbr\u003e-Using the Cloud Shell editor (Monaco)\r\u003cbr\u003e-Use Managed Service Identity (MSI) in Azure Cloud Shell\r\u003cbr\u003e \r\u003cbr\u003eAll attendees will leave with the information they need to begin immediately managing Azure subscription resources with Azure Cloud Shell using a personalized interface. Everyone will learn Stuff!\u003c/div\u003e",
+    "order_value": 20,
+    "item_ids": [115261],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 135868, 135334, 105923, 105989, 118492],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61478,
+    "name": "Doctor, Don't Defenestrate: What to Do with Legacy Scripts",
+    "component_id": 14445,
+    "start_time": 1556654400,
+    "end_time": 1556657100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eLegacy script is in every organization and belongs to every team. We've all got production critical services that rely on one or more solutions we put in place long ago. We wrote those solutions, unsurprisingly, to solve problems - and they did, or they wouldn't still be in use.\r\u003cbr\u003e\r\u003cbr\u003eThat means legacy code is valuable - and valuable investments shouldn't just be tossed out the window without a second thought.\r\u003cbr\u003eThis talk will cover how you can get your legacy code under control by evaluating, documenting, and adding tests to it - and how doing so will enable you to begin to update and replace your legacy scripts safely and more quickly than before.\r\u003cbr\u003e\r\u003cbr\u003eYou'll learn about:\r\u003cbr\u003e\r\u003cbr\u003e- Inline Documentation\r\u003cbr\u003e- Reference Documentation\r\u003cbr\u003e- Characterization Tests\r\u003cbr\u003e- Unit Tests\r\u003cbr\u003e- Concept Documentation\r\u003cbr\u003e- Source Control Practices\r\u003cbr\u003e\r\u003cbr\u003eWe'll use an example legacy script to dissect at each stage of the process, showing how you can go about getting your legacy code under control - and how you can use these same practices on your new code to save yourself the future work.\u003c/div\u003e",
+    "order_value": 32,
+    "item_ids": [115262],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135676, 131394, 135821, 131487, 135732, 135674, 135331, 125953, 129549, 125987, 121182, 117173, 108187, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61484,
+    "name": "Moving Up the Monitoring Stack",
+    "component_id": 14445,
+    "start_time": 1556654400,
+    "end_time": 1556657100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eLet's be honest - cloud migration can be scary.  There's a lot of potential change that can happen in how we run our applications.  What does the IT operations professional bring to the table when we start taking VMs out of the picture?\r\u003cbr\u003e\r\u003cbr\u003eOne answer to that is in how we evolve our monitoring.  For ages, we have focused our monitoring infrastructure watching things like CPU utilization and number of page faults in RAM access.  We stress over disk queue lengths and network response times.  Once we move out of Infrastructure as a Service (IaaS), our visibility into these indicators change.  We need to move up the stack and find out what application metrics we can use to provide similar insight (or even better) into the state of our application environments.  This provides one path for us to take our operational experience and apply it to things like Platform as a Service (PaaS), Functions as a Service (FaaS), or hosted container environments.\r\u003cbr\u003e\r\u003cbr\u003eWe will take a sample application running on a virtual machine and a few related perf counters, convert them into application metrics (no development experience required!), and see how we can maintain our insight into the performance of our applications.  Bring your experience and intuition and help shape the move up the stack!\u003c/div\u003e",
+    "order_value": 38,
+    "item_ids": [115266],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 132543, 127897, 125897, 125966, 125989, 125949],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61465,
+    "name": "Continuously deploying SQL code using Powershell",
+    "component_id": 14445,
+    "start_time": 1556658000,
+    "end_time": 1556660700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThere are many tools on the market that will help you to deploy your code, but, very often, they either binding you to a certain framework, preventing you from using any other products, or are not flexible enough to accommodate for all the deployment requirements.\r\u003cbr\u003eThis session will help you to discover multiple scenarios of deploying SQL code to your databases using nothing, but Powershell:\r\u003cbr\u003e\r\u003cbr\u003e- Ad-hoc deployments to a database server using a set of SQL scripts\r\u003cbr\u003e- Using configurations to deploy to multiple environments\r\u003cbr\u003e- Using code packaging capabilities to deploy your code within a CD pipeline framework\r\u003cbr\u003e- Set up continuous integration of SQL code into a CI database\r\u003cbr\u003e- Deploy directly from Source Control repositories using Jenkins jobs\r\u003cbr\u003e\r\u003cbr\u003eAll the deployments will be done in a fully customizable manner that embraces multiple database types (SQL Server, Oracle, MySql, Postgre - you name it!) and helps administrators to reduce the possibility of a human error during the deployments. Deployment scenarios will include building deployment pipelines in Jenkins, which is a perfect (and open-source) tool to configure a user-friendly interface for your Powershell scripts.\r\u003cbr\u003e\r\u003cbr\u003eAll the deployment features are provided by DBOps Powershell module, which has a number of features:\r\u003cbr\u003e\r\u003cbr\u003e- Powered by DbUp - highly customizable open-source .Net project, that provides a complex framework of deploying any kind of SQL code.\r\u003cbr\u003e- Module is using Powershell 5.0 and comes with a user-friendly class structure that allows for even deeper customization.\r\u003cbr\u003e- Contains all the necessary commands to provide end-to-end support for CI/CD SQL code deployment pipelines.\r\u003cbr\u003e- Thoroughly tested with hundreds of Pester tests to ensure flawless deployments\u003c/div\u003e",
+    "order_value": 19,
+    "item_ids": [115255],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 127897],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61486,
+    "name": "PSScriptAnalyzer: Overview, Advanced Usage, Customisation, Formatting and VS-Code integration",
+    "component_id": 14445,
+    "start_time": 1556658000,
+    "end_time": 1556660700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThe default setup of PSSA does not enable all rules to their full potential and the VS-Code extension does not show all PSSA warnings by default.\r\u003cbr\u003eI will show advanced features such as e.g. targeting a script for a certain PS version(s) and platform(s) and get early warning on incompatible cmdlets.\r\u003cbr\u003eFurthermore you will learn how to setup a repository with custom PSSA configuration that any user who opens the repo in VS-Code can use out of the box as well without any manual action. Focus will also be on formatting and how PSSA is integrated into VS-Code and customisation options.\r\u003cbr\u003eAs a maintainer I am also happy to briefly talk about implementation details of the engine or rules or how to build it.\u003c/div\u003e",
+    "order_value": 40,
+    "item_ids": [115240],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135676, 135868, 135331, 135334, 132543, 131269, 125966, 125949, 121182, 117173],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61488,
+    "name": "Logging in a DevOps world",
+    "component_id": 14445,
+    "start_time": 1556658000,
+    "end_time": 1556660700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eCovers the PSFramework logging system, that ...\r\u003cbr\u003e\r\u003cbr\u003e- Is easy to use out of the box\r\u003cbr\u003e\r\u003cbr\u003e- Provides powerful debugging information\r\u003cbr\u003e\r\u003cbr\u003e- Executes asynchronously in the background\r\u003cbr\u003e\r\u003cbr\u003e- Is 100% Runspace-safe to use, avoiding access conflicts to locked resources\r\u003cbr\u003e\r\u003cbr\u003e- Is plugin-based and can be extended\r\u003cbr\u003e\r\u003cbr\u003e- Is configuration driven, allowing replacement of logging setup at scale, avoiding the need to configure it in individual scripts (Update your entire logging estate without updating a single script)\r\u003cbr\u003e\r\u003cbr\u003e- Supports parallel logging using multiple logging providers\r\u003cbr\u003e\r\u003cbr\u003e- Can apply filter rules on a per-provider/plugin basis\u003c/div\u003e",
+    "order_value": 42,
+    "item_ids": [115245],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 135868, 131487, 125953, 129549, 118492, 108187, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61496,
+    "name": "Beyond Pester 102: Acceptance testing with PowerShell",
+    "component_id": 14445,
+    "start_time": 1556658000,
+    "end_time": 1556660700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePreviously in \"Beyond Pester 101: Applying testing principles to PowerShell\" I talked about unit and integration testing with Pester and PowerShell.  Now that we're all experts there, it's time to tackle Acceptance testing, also known as End to End testing.\r\u003cbr\u003e\r\u003cbr\u003eTopics:\r\u003cbr\u003e\r\u003cbr\u003e## What is acceptance testing?\r\u003cbr\u003e  - How is it different to unit and integration tests?\r\u003cbr\u003e  - How does pester fit in?\r\u003cbr\u003e  - Difference in testing between Modules, DSC configurations and applications\r\u003cbr\u003e\r\u003cbr\u003e## What am I trying to achieve?\r\u003cbr\u003e  - Remember \"Why do I test?\"\r\u003cbr\u003e  - Minimal tests for maximum confidence\r\u003cbr\u003e\r\u003cbr\u003e## Part 1 - Creating the systems under test\r\u003cbr\u003e  - For example; Test-Kitchen and Docker\r\u003cbr\u003e\r\u003cbr\u003e## Part 2 - Running the tests\r\u003cbr\u003e  - For example; Pester or OVF\r\u003cbr\u003e\r\u003cbr\u003e## Part 3 - Automating acceptance tests\r\u003cbr\u003e  - Using automated testing systems, for example, Appveyor, Travis CI, VSTS, GitLab CI\r\u003cbr\u003e\r\u003cbr\u003e## Additional considerations\r\u003cbr\u003e  - Instrumentation\r\u003cbr\u003e  - Optimisation\r\u003cbr\u003e\r\u003cbr\u003e## Further information\r\u003cbr\u003e  - Links to other resources\u003c/div\u003e",
+    "order_value": 50,
+    "item_ids": [115246],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 135732, 125987, 118261, 105989, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61449,
+    "name": "Malicious Payloads vs Deep Visibility: A PowerShell Story",
+    "component_id": 14445,
+    "start_time": 1556662500,
+    "end_time": 1556665200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eFor over a decade PowerShell has empowered administrators, DevOps practitioners and automation enthusiasts to accomplish significant tasks with relative ease. However, malicious threat actors have also harnessed PowerShell’s capabilities by writing extensive offensive tools and frameworks in PowerShell.\r\u003cbr\u003e\r\u003cbr\u003eThe PowerShell team has countered these malicious trends with adding numerous defensive enhancements to PowerShell including extremely deep logging visibility (like ScriptBlock, Module and Transcription logging) as well as blocking capabilities and interfaces like the AntiMalware Scan Interface (AMSI).\r\u003cbr\u003e\r\u003cbr\u003eThis talk draws from over four years of Incident Response experience to lay out a technical buffet of in-the-wild malicious PowerShell payloads and techniques. In addition to diving deep into the mechanics of each malicious example, this presentation will highlight forensic artifacts, detection approaches and the deep visibility that the latest versions of PowerShell provides security practitioners to defend their organizations against the latest attacks that utilize PowerShell.\r\u003cbr\u003e\r\u003cbr\u003eSo if you are new to security or just want to learn about how attackers have used PowerShell in their attacks, then this talk is for you. If you want to see what obfuscated and multi-stage, evasive PowerShell-based attacks look like under the microscope of PowerShell deep inspection capabilities, this talk is for you. And if you want to see why these security advancements to PowerShell are causing many attackers to shift their tradecraft development away from PowerShell, this talk is for you.\u003c/div\u003e",
+    "order_value": 3,
+    "item_ids": [115242],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135676, 126645, 108187],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61463,
+    "name": "Unexplained phenomena: powerful tricks you likely didn't know were even possible",
+    "component_id": 14445,
+    "start_time": 1556662500,
+    "end_time": 1556665200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThis session is based on the years of work I've done digging into the bowels of PowerShell and coming up with creative extensions for the language. Every trick is very useful, to the point where many of them are the first thing I apply to new module/cmdlet design. I'll include demos showing the end result in action from some of my modules, and show attendees how they can get there on their own.\u003c/div\u003e",
+    "order_value": 17,
+    "item_ids": [115256],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 135868, 135821, 135732, 125953, 135334, 125949, 121182, 117173, 118492, 106928, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61472,
+    "name": "Completely Automate Managing Windows Software...Forever",
+    "component_id": 14445,
+    "start_time": 1556662500,
+    "end_time": 1556665200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn this session I will show how I use strictly PowerShell, Chocolatey and good old fashioned task scheduler to automate the flow of internalizing Chocolatey community packages and upgrading all of my Chocolatey clients. I have managed to reduce the overhead of managing Windows software significantly and rarely have to intervene.\u003c/div\u003e",
+    "order_value": 26,
+    "item_ids": [115243],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 135334, 131269, 129549, 106909, 125987, 106928, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61499,
+    "name": "Automate All The Things–Where To Start And Where To Go?",
+    "component_id": 14445,
+    "start_time": 1556662500,
+    "end_time": 1556665200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eYou probably have a backlog of projects you want/need to start/complete. How do you know what you should be working on to make a real difference? Do you Build or Buy? How do you get management buy-in to work on a project that \"only helps Operations\"?\r\u003cbr\u003e\r\u003cbr\u003eI'm going to share how I used Wardley Maps at Stack Overflow to answer these questions and how Mapping The Terrain Of Operations can help you invest time and money in the right improvements at the right time.\r\u003cbr\u003e\r\u003cbr\u003eThis talk is for anyone who is involved in any form of Operations Project Management–Formal, Informal or even \"Non-Existent\".\u003c/div\u003e",
+    "order_value": 53,
+    "item_ids": [115239],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135676, 131394, 135868, 131487, 135331, 133522, 132543, 127897, 105923, 125966, 106928, 105989],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61452,
+    "name": "PSCache - simple strategies for magnificent performance",
+    "component_id": 14445,
+    "start_time": 1556666100,
+    "end_time": 1556668800,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn this presentation I'll introduce the audience to a big picture view of asymptotic complexity (Big O) in scripting, using a language that doesn't require a CS degree, then look at some common pitfalls when it comes to runtime inefficiency that I've seen in actual scripts in the wild and on the internet, and finally dig into how one might spot and resolve these terribly slow anti-patterns.\r\u003cbr\u003e\r\u003cbr\u003eThe theme of the talk is not entirely original, as I believe others (including Ashley McGlone?) has previeously delivered presentations on this topic, but I'd like to dig a little deeper into the behavior of different collection types in .NET, look at _practical examples_ of how one might infer the time complexity of a piece of code using an augmented version of [Measure-Script](https://github.com/IISResetMe/MeasureScript/) and finally focus on more general patterns of efficient abstractions with the [PSCache module](https://github.com/IISResetMe/PSCache) as a starting point\u003c/div\u003e",
+    "order_value": 6,
+    "item_ids": [115259],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [105923, 125987],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61495,
+    "name": "Bullet-proofing: Patterns \u0026 Practices for survivable advanced functions and scripts",
+    "component_id": 14445,
+    "start_time": 1556666100,
+    "end_time": 1556668800,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eWe will start with a pair of related scripts and put them together into a module - discussing what our options are, and the motivation for each change, we'll improve the functions by actually applying a list of best practices and code snippets including:\r\u003cbr\u003e\r\u003cbr\u003e- picking good parameter names\r\u003cbr\u003e- the help you can't not write\r\u003cbr\u003e- validating input values\r\u003cbr\u003e- outputting objects that are predictable **and identifiable**\r\u003cbr\u003e- binding parameters from the pipeline\r\u003cbr\u003e- why to avoid a single InputObject\r\u003cbr\u003e- finding work that can go outside the process block\r\u003cbr\u003e- outputting errors that are unrecoverable\r\u003cbr\u003e- recovering from errors when possible\r\u003cbr\u003e\r\u003cbr\u003eAt the end of our time you'll have a series of reproducible steps, and a few code snippets and the knowledge to apply them to make your functions and even your modules more robust and more intuitive for users.\r\u003cbr\u003e\r\u003cbr\u003eI'll introduce attributes including [CmdletBinding()],  [Parameter()] and [OutputType()] and we'll go over the difference between Write-Error and \throw (and maybe even $PSCmdlet.WriteError()) and talk _briefly_ about the difference between a PSCustomObject with PSTypeNames and an object with a PowerShell class (and how to write parameters that accept _both_).\u003c/div\u003e",
+    "order_value": 49,
+    "item_ids": [115253],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 131394, 125953, 131295, 132543, 127897, 105923, 125949, 121182, 118492, 106928, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61498,
+    "name": "Publishing and Managing Modules in an Internal Repository",
+    "component_id": 14445,
+    "start_time": 1556666100,
+    "end_time": 1556668800,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eSetting up and publishing to an internal repository is much easier than most people expect. In this talk, I plan on covering why it's a good idea to use an internal repository to distribute modules. I will show how to publish modules to both a  file share and a local nuget instance. The demo will show the user how to manually publish the module with the idea that it should be part of a CI/CD pipeline. We will address the idea of re-hosting public modules from the PSGallery as a way to gate them into your organization. We will also show how to bootstrap other systems to use the internal repository.\r\u003cbr\u003e\r\u003cbr\u003eAnd then talk about the trials and tribulations of doing this in my organization.\u003c/div\u003e",
+    "order_value": 52,
+    "item_ids": [115254],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 135868, 134668, 131487, 135732, 135331, 135334, 131269, 129549, 106909, 105923, 125966, 126645, 108187],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61514,
+    "name": "Breakfast",
+    "component_id": 14445,
+    "start_time": 1556722800,
+    "end_time": 1556726400,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for a hot breakfast. We'll have announcements and housekeeping at 8:30am - you definitely don't want to miss those!\u003c/div\u003e",
+    "order_value": 68,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 134668, 135732, 135334, 132543, 131269, 125966, 125987, 125953, 125949, 121182, 118492, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61459,
+    "name": "Unleash your PowerShell with AWS Lambda and Serverless Computing",
+    "component_id": 14445,
+    "start_time": 1556726400,
+    "end_time": 1556732700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn this session we will introduce the PowerShell language support in AWS Lambda before diving into AWS serverless computing. You will learn event driven design patterns and how to combine your existing PowerShell knowledge with serverless computing to innovate faster and unleash your PowerShell!\u003c/div\u003e",
+    "order_value": 13,
+    "item_ids": [115234],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135821, 135334, 105923, 132543, 126645, 125989, 105989],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61469,
+    "name": "Deep Web: A Web Cmdlets Deep Dive",
+    "component_id": 14445,
+    "start_time": 1556726400,
+    "end_time": 1556732700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eWith many IT processes moving to REST based APIs and our ever increasing reliance on websites to do our jobs as developers and operators, never has there been a time more critical for learning all there is to know as much as possible about the Web Cmdlets. Invoke-WebRequest is like a web browser in your PowerShell console and Invoke-RestMethod converts a remote API endpoint into a PowerShell object. \r\u003cbr\u003e\r\u003cbr\u003eGo beyond the -Uri parameter and explore the rich and numerous features of these Cmdlets. Learn what session variable are and how to effectively use them. See working examples of various new and improved authentication methods in PowerShell Core. Peak behind the CLI and see what makes these Cmdlets tick. Learn about the differences in these Cmdlets between Windows PowerShell 5.1 and PowerShell Core 6+. See how some basic web scraping can be done.\r\u003cbr\u003e\r\u003cbr\u003eWhy spend 90 minutes of your time learning about the Web Cmdlets? Because you deserve to get the most out of these feature rich Cmdlets. Knowing what features are available, when to use them, and how these Cmdlets work will improve your workflows, simplify your code, and empower your growth with the constantly changing API based landscape of IT.\u003c/div\u003e",
+    "order_value": 23,
+    "item_ids": [115258],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 131394, 134668, 131487, 125953, 135334, 101719, 131269, 129549, 125966, 125949, 118492, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61477,
+    "name": "Ansible for the Windows Admin",
+    "component_id": 14445,
+    "start_time": 1556726400,
+    "end_time": 1556732700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAnsible is a very flexible, easy to use configuration management product.  Written in Python, and traditionally for linux environments, it is being used by Windows admins more and more.  Also, with PowerShell being cross platform, we can do some really interesting things that were probably never intended by the creators.  Come find out all you need to know about managing Windows machines with Ansible, and find out how much you can do without learning Python.  In this talk you will learn:\r\u003cbr\u003e\r\u003cbr\u003e- how to setup VSCode and the Windows Subsystem for Linux (WSL) to be the ultimate Ansible console\r\u003cbr\u003e- how to get started with basic ansible tasks and an overview of the architecture and terminology\r\u003cbr\u003e- how to connect to, and manage, Windows machines with Ansible, and the various authentication options available\r\u003cbr\u003e- how to leverage PowerShell DSC resources in Ansible to do almost anything\r\u003cbr\u003e- how to write custom Ansible modules and dynamic inventory scripts in PowerShell on linux\u003c/div\u003e",
+    "order_value": 31,
+    "item_ids": [115251],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 131394, 135868, 135737, 135334, 132543, 131269, 125987, 117173, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61491,
+    "name": "Machine Learning Algorithms with H2o and PowerShell",
+    "component_id": 14445,
+    "start_time": 1556726400,
+    "end_time": 1556732700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin Tome as he shows you how to teach your PowerShell to think - well sort of.  During this session you will see how you can leverage the H2o framework in your applications and scripts to learn from data sets and build models to make predictions based on new uncategorized data. With virtually zero understanding of the mathematics, you can apply the machine learning algorithms available in the platform AND use the platform to optimize your selected algorithms. Come see how you can harness all of this with Windows and PowerShell to open up new doors in your scripts and applications.\u003c/div\u003e",
+    "order_value": 45,
+    "item_ids": [115270],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [121182],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61736,
+    "name": "OnRamp Day 2",
+    "component_id": 14445,
+    "start_time": 1556726400,
+    "end_time": 1556755200,
+    "overview": null,
+    "order_value": 76,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11605,
+      "component_id": 14444,
+      "name": "409 OnRamp Track",
+      "item_ids": [],
+      "session_ids": [61737, 61735, 61736],
+      "map_regions": [{
+        "id": 4594,
+        "map_id": 728,
+        "region_id": 11605,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[601.4775,455.2125],[601.4775,558.195],[677.595,558.195],[677.595,455.2125],[601.4775,455.2125]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6452,
+      "component_id": 14445,
+      "name": "OnRamp",
+      "tag": "ONRAM",
+      "color": "#ffffff"
+    }]
+  }, {
+    "id": 61460,
+    "name": "CypherDog2.0 - Bloodhound Dog Whispering with PowerShell",
+    "component_id": 14445,
+    "start_time": 1556733600,
+    "end_time": 1556736300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eBloodHound is a fantastic open source active directory graphing tool designed by @_Wald0, @CptJesus \u0026 @harmj0y.\r\u003cbr\u003eInitialy created for offensive purposes, it has also quickly gained popularity within blue teams \r\u003cbr\u003eand \"regular\" Active Directory Admins.\r\u003cbr\u003eIn this session, I will present CypherDog2.0, a PowerShell module designed to interact with BloodHound via its REST API for advanced interaction with the database, and allowing actions that can not be performed in the Bloodhound UI.\r\u003cbr\u003eThis PowerShell module runs Cypher queries under the hood (the neo4j database query language), and allows to get the maximum out of the Bloodhound data -including metrics as demonstrated by @_wald0 in his latest research- with a simplified dynamic syntax and cool PowerShell pipeline combos...\r\u003cbr\u003e\r\u003cbr\u003eIn this presentation, I will show how to\r\u003cbr\u003e- Query database for Nodes, Edges and Paths and return objects\r\u003cbr\u003e- Manipulate BloodHound Data (at scale)\r\u003cbr\u003e- Request cheapest path (shortest is not always cheapest...)\r\u003cbr\u003e- Chain cypher queries over PowerShell pipeline\r\u003cbr\u003e- Query for possible relevant active directory metrics \r\u003cbr\u003e...and more cool cypher tricks \u0026 BloodHound object manipulation from the comfort of a PowerShell prompt.\u003c/div\u003e",
+    "order_value": 14,
+    "item_ids": [115271],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61485,
+    "name": "Life after \"git push\"",
+    "component_id": 14445,
+    "start_time": 1556733600,
+    "end_time": 1556736300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eCI/CD! Release Pipelines! Code Reviews! Unit Tests!\r\u003cbr\u003e\r\u003cbr\u003eWe've been hammering on these concepts for quite some time, but we haven't talked about what happens after our changes make it through our pipeline.  What does it look like to run services where I don't interact directly with the machines running it?  How do I handle investigating issues? What happens when a change causes an issue?  How do we deal with \"get in there and fix it NOW!\"?\r\u003cbr\u003e\r\u003cbr\u003eWe'll set the stage with a mature environment, deliver some change, and together figure out how to recover and move forward - while maintaining our discipline in how we change our running environment.  Bring an open mind and your best troubleshooting experience!\u003c/div\u003e",
+    "order_value": 39,
+    "item_ids": [115266],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 131487, 135334, 132543, 125966, 125987, 106179, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61497,
+    "name": "How to become a SHiPS wright - Building with SHiPS",
+    "component_id": 14445,
+    "start_time": 1556733600,
+    "end_time": 1556736300,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eA Shipwright an artisan skilled in one or more of the tasks required to build vessels.  A SHiPSwright is an artisan skilled in one or more of the tasks required to build PowerShell Providers.\r\u003cbr\u003e\r\u003cbr\u003eThe [SHiPS toolkit](https://github.com/PowerShell/SHiPS) has been around for a while but it can be a little difficult to get started.\r\u003cbr\u003e\r\u003cbr\u003e## What is SHiPS and what can it do for me?\r\u003cbr\u003e\r\u003cbr\u003e## Examples of existing SHiPS based providers\r\u003cbr\u003e\r\u003cbr\u003e  - Azure Cloud Shell\r\u003cbr\u003e  - Puppet PS Provider\r\u003cbr\u003e  - etc.\r\u003cbr\u003e\r\u003cbr\u003e## What things can I SHiPS-ify?\r\u003cbr\u003e\r\u003cbr\u003e  - What is hierarchial data?\r\u003cbr\u003e\r\u003cbr\u003e## DEMO - Building a simple static SHiPS provider\r\u003cbr\u003e\r\u003cbr\u003e## DEMO - Use an external API\r\u003cbr\u003e\r\u003cbr\u003e## DEMO - Advanced topics\r\u003cbr\u003e  - Caching\r\u003cbr\u003e  - Testing?\r\u003cbr\u003e\r\u003cbr\u003e## Further information\r\u003cbr\u003e  - Links\r\u003cbr\u003e  - Docs\r\u003cbr\u003e  - Open Source\u003c/div\u003e",
+    "order_value": 51,
+    "item_ids": [115246],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131269, 129549, 125989, 125949, 121182, 118261],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61511,
+    "name": "Lunch",
+    "component_id": 14445,
+    "start_time": 1556737200,
+    "end_time": 1556740800,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for one of our famously excellent buffet lunches\u003c/div\u003e",
+    "order_value": 65,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 134668, 135732, 135334, 132543, 131269, 105923, 125966, 125987, 125953, 125949, 121182, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61450,
+    "name": "Using PowerShell in a Cross Platform World",
+    "component_id": 14445,
+    "start_time": 1556740800,
+    "end_time": 1556743500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePowerShell used to be just for Windows, but now it installs on most platforms...so that means we can use PowerShell everywhere! It all just works like magic and you can just sit back and relax. Right? Well, for the most part, PowerShell Core works everywhere - but like most things, the devil is in the details. This talk will cover the lessons learned from converting a project that used gulp as a build script to a PowerShell script, that works on Windows, Linux and Mac.\r\u003cbr\u003e\r\u003cbr\u003eWe will start by reviewing the reasons why you would choose PowerShell Core over other common 'cross-platform' options. There are many considerations to mull over when choosing PowerShell over other common denominator languages. How does PowerShell Core get installed on other platforms? What common tasks are already handled by PowerShell Core, what type of tasks will you have to write code for? What scenarios are not yet a good fit for PowerShell Core?\r\u003cbr\u003e\r\u003cbr\u003eAfter reviewing why we chose PowerShell Core, we will transition over to common gotchas and anti-patterns when using PowerShell cross-platform, by reviewing the real, live, PowerShell core script that was converted from gulp that works in TravisCI (Mac and Linux) and AppVeyor (Windows). Not only can built-in aliases can trip you up, but what about the underlying implementations of your everyday cmdlets? How does Get-Childitem work differently on Linux? What about Invoke-WebRequest? When you encounter a command that has to be run differently on different platforms, how do you handle it in a reusable way?\r\u003cbr\u003e\r\u003cbr\u003eWe will finish up by reviewing what went well with the conversion, what went wrong, and if we would choose to do it again (we would).\u003c/div\u003e",
+    "order_value": 4,
+    "item_ids": [115250],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135334, 132543, 125966, 126645, 121182, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61467,
+    "name": "Containers - You Better Get on Board",
+    "component_id": 14445,
+    "start_time": 1556740800,
+    "end_time": 1556743500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eContainers are taking over, changing the way systems are developed and deployed…and that’s NOT hyperbole. Just imagine if you could deploy SQL Server or even your whole application stack in just minutes. You can do that, leveraging containers! In this session, we’ll get you started on your container journey learning container fundamentals in Docker, then look at some common container scenarios and introduce deployment automation with Kubernetes.\u003c/div\u003e",
+    "order_value": 21,
+    "item_ids": [115235],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 135732, 135334, 105923, 125987, 105989],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61479,
+    "name": "Don't do that, do this instead: PowerShell worst practices and how to solve them",
+    "component_id": 14445,
+    "start_time": 1556740800,
+    "end_time": 1556743500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn past years the 3 furies have shared their insights on various things people do wrong in PowerShell. Let's take that one step further and demo all those things and what you should do instead. We'll explain why it's bad and the other way is better, because code without context doesn't help anyone.\r\u003cbr\u003e\r\u003cbr\u003eA lot of talks about \"Best Practice\" are aimed at showing you what you should be doing but not many take the approach of showing what you shouldn't be doing and how to change it. This can make it more difficult to grasp as it might not easily relate to how someone is currently working or has been working, showing the wrong way to do things is more approachable as everyone was a beginner at some point and many people made the same mistakes. Taking this one step further and providing reasoning why one approach is the wrong or worse way to handle something can also allow people to make an informed decision on using that approach anyway, if their circumstances require it.\u003c/div\u003e",
+    "order_value": 33,
+    "item_ids": [115238],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131295, 136793, 133522, 131394, 135868, 135676, 131487, 125953, 131269, 129549, 125949, 118492, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 107218,
+    "name": "TBD: System Frontier",
+    "component_id": 14445,
+    "start_time": 1556740800,
+    "end_time": 1556743500,
+    "overview": null,
+    "order_value": 78,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 9192,
+      "component_id": 14445,
+      "name": "Vendor",
+      "tag": "VEND",
+      "color": "#4a4a4a"
+    }]
+  }, {
+    "id": 61471,
+    "name": "Better Ops Together: Practical PowerShell Pair Programming Patterns and Practices with VS Code",
+    "component_id": 14445,
+    "start_time": 1556744400,
+    "end_time": 1556747100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAs the world of Development and Operations continue to merge, those of us in traditional Operation roles find ourselves looking over the fence at our Developer counterparts to learn their patterns and practices. One developer practice that we should all start taking seriously is Pair Programming. In Pair Programming two colleagues collaborate simultaneously on the same code.\r\u003cbr\u003e\r\u003cbr\u003eBut how does that work with limited resources? What technologies can you use for geographically separated teams? Why would you even consider Pair Programming for Ops work? \r\u003cbr\u003e\r\u003cbr\u003eThis session will answer these questions by demonstrating how a real-world IT Operations team at LinkedIn leverages Pair Programming Patterns and Practices to build their PowerShell CI/CD pipelines and infrastructure automation. See how Pair Programming can be used to improve code quality, decrease future refactoring needs, and raise a team's PowerShell skills.\u003c/div\u003e",
+    "order_value": 25,
+    "item_ids": [115258],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131394, 135868, 135732, 125953, 135334, 105923, 101719, 125966, 125987, 125949, 118492, 121182, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61492,
+    "name": "Basic To Boss: Customizing Your PowerShell Prompt",
+    "component_id": 14445,
+    "start_time": 1556744400,
+    "end_time": 1556747100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eEvery time I present and people see my PowerShell prompt, I get lots of questions about how I made it look that way, how it gets all the pieces of information it displays, and so on. This is a pretty light-hearted session and isn't going to change anybody's life, but it's still going to be pretty cool for people to see the kinds of things you can do in the console. The only slides for this session are an intro and a \"thanks for coming\". Otherwise, we're writing code.\u003c/div\u003e",
+    "order_value": 46,
+    "item_ids": [115269],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131394, 135868, 135676, 131487, 129549, 125949, 118492, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61500,
+    "name": "Demystifying Terraform - \"Hardcore\" to Core Infrastructure-as-Code Tool",
+    "component_id": 14445,
+    "start_time": 1556744400,
+    "end_time": 1556747100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eTo many, Terraform is a magical black box. I'm going to give a 35-minute introduction to practical Terraform usage based on experience building Cloud Infrastructure for Ticketmaster and Stack Overflow.\r\u003cbr\u003e\r\u003cbr\u003eThis session will be demo heavy and take the audience from thinking Terraform is only for \"hardcore\" engineers to believing it could be a core tool for managing infrastructure in their own environments. You don't have to support a Top 100 website or even use Public Cloud for Terraform to be a valuable tool in your inventory.\r\u003cbr\u003e\r\u003cbr\u003eI'll cover the language, the tool, the ecosystem, and as many anecdotes of personal failure that I can pack into 35 minutes.\u003c/div\u003e",
+    "order_value": 54,
+    "item_ids": [115239],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131295, 136793, 133522, 132543, 131269, 126645, 117173],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 107219,
+    "name": "TBD: Amazon AWS",
+    "component_id": 14445,
+    "start_time": 1556744400,
+    "end_time": 1556747100,
+    "overview": null,
+    "order_value": 79,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 9192,
+      "component_id": 14445,
+      "name": "Vendor",
+      "tag": "VEND",
+      "color": "#4a4a4a"
+    }]
+  }, {
+    "id": 61446,
+    "name": "PesterSec: Using Pester \u0026 ScriptAnalyzer for Detecting Obfuscated PowerShell",
+    "component_id": 14445,
+    "start_time": 1556748900,
+    "end_time": 1556751600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eOver the years as attackers have increasingly used PowerShell as an important piece of their offensive toolkit, the PowerShell Team has countered by building deep inspection capabilities into PowerShell that are not found in any other scripting language. However, as defenders began using this new visibility and significantly improving their detection of malicious PowerShell usage, attackers adapted their techniques.\r\u003cbr\u003e\r\u003cbr\u003eAs attackers turned to the heavy usage of specific obfuscation techniques, like those found in Invoke-Obfuscation and Invoke-CradleCrafter, to target certain aspects of PowerShell’s ScriptBlock logging, defenders once again had to match this offensive shift with their own shift in detection methodology.\r\u003cbr\u003e\r\u003cbr\u003eDefenders have since turned to various data science approaches, like those built into Revoke-Obfuscation, to more robustly detect heavy PowerShell obfuscation. However, countering offensive projects like PSAmsi have enabled attackers to apply selective obfuscation in minimal quantities to evade specific A/V signatures while falling under the \"obfuscation threshold\" of newer data science approaches.\r\u003cbr\u003e\r\u003cbr\u003eCome learn how PesterSec combines the power of ScriptAnalyzer and Pester to perform context-specific detections of minimally-obfuscated PowerShell commands and scripts. These platforms also highlight the ease of access to PowerShell’s Abstract Syntax Tree (AST) for any PowerShell practitioner.\u003c/div\u003e",
+    "order_value": 0,
+    "item_ids": [115242],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [125949, 117173],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61457,
+    "name": "PowerShell + AutoRest + Swagger = Instant Modules",
+    "component_id": 14445,
+    "start_time": 1556748900,
+    "end_time": 1556751600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eHave you ever wanted to abstract a RESTful Web Service with a PowerShell module? With AutoRest, you can generate easy-to-use PowerShell cmdlets directly from the REST Swagger document.  Whether you’re creating your own RESTful Web Service or consuming an existing service, this capability can be beneficial. In this demo-packed session, I’ll walk attendees through the following steps:\r\u003cbr\u003e\r\u003cbr\u003e* how to use Swagger and the OpenAPI specification to document RESTful Web Services\r\u003cbr\u003e* how to set up AutoRest\r\u003cbr\u003e* how to use AutoRest to generate modules\r\u003cbr\u003e* how to avoid some of the “gotchas”\r\u003cbr\u003e* how to create SDKs for multiple languages\r\u003cbr\u003e\r\u003cbr\u003eIn this 45-minute session, attendees will gain a solid understanding of the capabilities and use cases for AutoRest. They’ll see a module being generated from a Web Service and how they can then use that module to interact with the Web Service. Finally, they’ll be aware of some of the issues to watch out for and some of AutoRest’s limitations.\u003c/div\u003e",
+    "order_value": 11,
+    "item_ids": [115233],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135334, 132543, 131269, 125966, 121182, 106179, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61470,
+    "name": "PowerShell Error and Event Collection at Scale",
+    "component_id": 14445,
+    "start_time": 1556748900,
+    "end_time": 1556751600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e# PowerShell Error and Event Collection at Scale #\r\u003cbr\u003e\r\u003cbr\u003eRemain in the dark no longer with Application Insight's telemetry gathering capabilities. This .NET marvel brought to you by the fine folks at Microsoft can now assist you with knowing exactly what is happening with your PowerShell code when you're not looking. Stop guessing and start knowing what your code does when you're not looking!\r\u003cbr\u003e\r\u003cbr\u003e---\r\u003cbr\u003e\r\u003cbr\u003e- **Collect Errors Right from the Field**\r\u003cbr\u003e\r\u003cbr\u003eApplication Insights can save entire error records generated by your code and send them to a central location. This is a great way to see what problems occur wherever your code is run in one esay to access location.\r\u003cbr\u003e\r\u003cbr\u003e- **Know Whats Happening and Where It's Happening**\r\u003cbr\u003e\r\u003cbr\u003eData you choose to gather is sent to the cloud allowing you to keep track of key actions and events occurring in your code around the clock. You'll have historic data available right at your finger tips.\r\u003cbr\u003e\r\u003cbr\u003e- **Build Dashboards Around Your Code**\r\u003cbr\u003e\r\u003cbr\u003eBuild dashboards to visualize the events in your code using either Application Insight's build in dashboarding or take advantage of the PowerBI integration.\r\u003cbr\u003e\r\u003cbr\u003e- **Find Slow Code**\r\u003cbr\u003e\r\u003cbr\u003eUse Application Insights to measure code execution so you know when and where something isn't as fast as it should be.\r\u003cbr\u003e\r\u003cbr\u003e- **Use in Both Binary and Script Based PowerShell**\r\u003cbr\u003e\r\u003cbr\u003eDo you author your code in C#, F#, or PowerShell? No matter what language you choose, Application Insights is build for the .NET family and will run where you need it to.\r\u003cbr\u003e\r\u003cbr\u003e- **Adjustable Telemetry Levels**\r\u003cbr\u003e\r\u003cbr\u003eNot everyone feels comfortable with, or is allowed to join in with, telemetry collection. We'll cover how to set variable telemetry options allowing the users of your code the option to opt into or out of telemetry gathering.\u003c/div\u003e",
+    "order_value": 24,
+    "item_ids": [115241],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61483,
+    "name": "Going Core with VMware PowerCLI!",
+    "component_id": 14445,
+    "start_time": 1556748900,
+    "end_time": 1556751600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eSeveral features in VMware PowerCLI are build on Windows features.\r\u003cbr\u003eAs a result they do not run on the .Net core that comes with PowerShell v6.\r\u003cbr\u003eIn the 10 years that VMware PowerCLI was available,many organisations and users have written a wealth of scripts to manage their vSphere environment.\r\u003cbr\u003eHow can one make these legacy scripts run in PS v6?\r\u003cbr\u003eIs this another Y2K scenario?\r\u003cbr\u003eIt turns out that PowerShell already has a lot of the answers.\r\u003cbr\u003eThis session will explore how many scripts can be made to run in PS v6 without even making any changes to the legacy code.\u003c/div\u003e",
+    "order_value": 37,
+    "item_ids": [115257],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 135676, 131487, 135732, 125953, 105923],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61473,
+    "name": "Automating Active Directory Health Checks",
+    "component_id": 14445,
+    "start_time": 1556752500,
+    "end_time": 1556755200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAh, the life of a sysadmin; we balance our time between building new services for our corporate users and troubleshooting the existing services that those same corporate users rely on day after day.\r\u003cbr\u003e\r\u003cbr\u003eWe’re involved with so many core pieces of the network that we’re pulled in many directions on any given day. One day it’s troubleshooting servers and applications, the next it could be assisting the help desk figure out why logins aren’t working for a subset of laptops. There is never a shortage of work that demands our attention.\r\u003cbr\u003e\r\u003cbr\u003eThe truth is most of us don’t have the time to keep an eye on every detail of our IT infrastructure. Automating tasks is the only way we can focus on the priorities and still keep a watchful eye on all the things that need to be checked regularly. Automation frees you from the mundane, day-to-day\r\u003cbr\u003etasks that need to be done but are not the best use of your time.\u003c/div\u003e",
+    "order_value": 27,
+    "item_ids": [115264],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 131394, 135676, 135732, 125953, 129549, 105982, 105969, 105492],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61481,
+    "name": "Working with PSGraph",
+    "component_id": 14445,
+    "start_time": 1556752500,
+    "end_time": 1556755200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePSGraph is a module that was implemented as a DSL (Domain Specific Language) to make it easy to build node/edge based graphs in PowerShell. This module really acts as a wrapper around the open source GraphViz engine. I will introduce the GraphViz engine, show how the PSGraph DSL inplements the features of GraphViz and then dynamically generate graphs. Examples in this talk include generating a organizational chart from a simple data set, dynamically generating an infrastructure diagram that even indicates up/down status of individual nodes, and mapping out system processes to remote network connections.\u003c/div\u003e",
+    "order_value": 35,
+    "item_ids": [115254],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 135868, 132543, 125949, 121182],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61493,
+    "name": "Testing, Testing, 1...2...3: Using Pester for Infrastructure Validation",
+    "component_id": 14445,
+    "start_time": 1556752500,
+    "end_time": 1556755200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThis talk will show how to use [Pester](https://github.com/pester/Pester), the pervasive testing framework for PowerShell, for validating that your infrastructure is operating how you expect.\r\u003cbr\u003e\r\u003cbr\u003ePester is **the** testing framework for PowerShell. Typically you'll use Pester to test your PowerShell scripts or modules but it can also be used for testing infrastructure. Operation Validation is a method of using Pester to test that your deployed infrastructure is operating the way you expect. In this use case, we're not testing code, but real-world infrastructure.\r\u003cbr\u003e\r\u003cbr\u003eThis talk will show how Pester and related tools can be used as part of an automation and testing workflow.\r\u003cbr\u003e\r\u003cbr\u003eTools showcased:\r\u003cbr\u003e\r\u003cbr\u003e- [Pester](https://github.com/pester/Pester)\r\u003cbr\u003e\r\u003cbr\u003ePester is the ubiquitous test and mock framework for PowerShell.\r\u003cbr\u003e\r\u003cbr\u003e- [Operation Validation Framework](https://github.com/PowerShell/Operation-Validation-Framework)\r\u003cbr\u003e\r\u003cbr\u003eA set of tools for executing validation of the operation of a system. It provides a way to organize and execute Pester tests which are written to validate operation (rather than limited feature tests)\r\u003cbr\u003e\r\u003cbr\u003e- [PoshSpec](https://github.com/Ticketmaster/poshspec)\r\u003cbr\u003e\r\u003cbr\u003eAn infrastructure testing DSL running in Pester.\r\u003cbr\u003e\r\u003cbr\u003e- [Watchmen](https://github.com/devblackops/watchmen)\r\u003cbr\u003e\r\u003cbr\u003eInfrastructure test runner and notification system using\r\u003cbr\u003e[Operation Validation Framework](https://github.com/PowerShell/Operation-Validation-Framework) (OVF) PowerShell modules and Pester.\r\u003cbr\u003e\r\u003cbr\u003e- [PSHealthZ](https://github.com/devblackops/pshealthz)\r\u003cbr\u003e\r\u003cbr\u003eBasic HTTP(S) listener that executes [Operation Validation Framework](https://github.com/PowerShell/Operation-Validation-Framework) (OVF) tests that are present on the given system and returns results using a simple REST API.\r\u003cbr\u003eThis is an implementation of the [Health Endpoint Monitoring Pattern](https://msdn.microsoft.com/en-us/library/dn589789.aspx) using PowerShell.\u003c/div\u003e",
+    "order_value": 47,
+    "item_ids": [115237],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131487, 135334, 131269, 125966, 125987, 117173, 106179, 105989, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61731,
+    "name": "Wednesday Evening Gathering",
+    "component_id": 14445,
+    "start_time": 1556758800,
+    "end_time": 1556769600,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eCheck back for details, including the location of our off-site evening gathering!\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 71,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 135732, 135334, 131269, 125966, 125987, 125953, 125949, 121182, 118492, 106179, 105989, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [{
+      "id": 60305,
+      "name": "Links",
+      "properties": [{
+        "id": 81442,
+        "name": "Summiteer Manual",
+        "picture_url": "https://cdn.filestackcontent.com/hcTwG9hoRSOwpieFjkV2",
+        "url": "http://leanpub.com/summiteermanual",
+        "order_value": "0",
+        "web_platform": "native",
+        "forward_data": false
+      }]
+    }],
+    "regions": [],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }, {
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61515,
+    "name": "Breakfast",
+    "component_id": 14445,
+    "start_time": 1556809200,
+    "end_time": 1556812800,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for a hot breakfast. We'll have announcements and housekeeping at 8:30am - you definitely don't want to miss those!\u003c/div\u003e",
+    "order_value": 69,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 135732, 135331, 135334, 132543, 131269, 125966, 125987, 125953, 125949, 121182, 118492, 106928, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61448,
+    "name": "Using PowerShell Core to automate application packaging, deployment and updates with Habitat",
+    "component_id": 14445,
+    "start_time": 1556812800,
+    "end_time": 1556815500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eHabitat is a relatively new automation platform written by Chef Software. It's aim is to automate the packaging and run time management of an application or groups of services within a distributed application as opposed to focusing on server-centric configuration management traditionally driven by Chef. Habitat is environment agnostic and can run on bare metal, VMs, either on premise or in the cloud or inside of Docker containers. One of Habitat's goals is that it should be easily accessible to developers and operators familiar with PowerShell. This session will focus on an ASP.Net web application talking to a SQL Server database. We will walk through a Habitat PowerShell plan that builds the ASP.Net application as well as how the Habitat Supervisor utilizes PowerShell hooks and DSC configuration to configure and run the application. Once we have working Habitat packages for our web application and SQL Server, we will use Habitat to deploy them to Docker containers.\u003c/div\u003e",
+    "order_value": 2,
+    "item_ids": [115260],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135868, 135334],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61456,
+    "name": "Finding Performance Bottlenecks with PowerShell",
+    "component_id": 14445,
+    "start_time": 1556812800,
+    "end_time": 1556819100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eHave you ever walked into the office one morning only to discover major performance problems after leaving the previous day with everything operating normally? How do you begin to diagnose this type of performance problem? While PowerShell may not be your first thought, it can offer a quick way to identify where the problems reside. The Get-Counter cmdlet, which is used to query performance counters on Windows based systems, isn't very intuitive to say the least and its results aren’t what I would call a great object-oriented design. During this session, you’ll learn how to find performance counters and what the top 10 most important performance counters are along with their recommended values. You’ll learn how to query performance counters, create a reusable tool to query the top 10 performance counters, and automate the validation of those performance counters with Pester. Finally, you’ll learn how to create advanced validation tests for those performance counters.\u003c/div\u003e",
+    "order_value": 10,
+    "item_ids": [115263],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 131394, 135732, 125953, 135331, 132543, 105923, 125966, 125949, 121182, 117173, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61462,
+    "name": "Advanced JEA Configurations",
+    "component_id": 14445,
+    "start_time": 1556812800,
+    "end_time": 1556819100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJust Enough Administration is one of the most powerful tools that PowerShell has to offer. Giving you the ability to white list what users can and cannot do in their remote session. But are you using JEA to its full potential, or are you using the basic configurations for your end points? This demo driven presentation will go over some of the more advanced features that JEA has to offer including the creating of a “Break Glass” account, running as different users other than the Virtual admin and much more.\u003c/div\u003e",
+    "order_value": 16,
+    "item_ids": [115249],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 131487, 131269, 129549, 106909, 126645, 125987, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61490,
+    "name": "Writing Clustered Applications with Windows PowerShell and Apache Zookeeper",
+    "component_id": 14445,
+    "start_time": 1556812800,
+    "end_time": 1556815500,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn modern computing there are distributed compute patterns that are essential to have in your arsenal. Zookeeper abstracts much of the registration and clustering aspects usually required in creating compute clusters written in any programming language. Often times it's overlooked that PowerShell is an effective programming language that can leverage common distributed patterns. Join Tome as he walks through these distributed compute patterns at a high level and demonstrates how to leverage Zookeeper to create clusters of Windows server compute that can be tasked with running services such as IIS, distributing script/batch jobs written in PowerShell, or managing Windows Docker compute containers.\u003c/div\u003e",
+    "order_value": 44,
+    "item_ids": [115270],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61737,
+    "name": "OnRamp Day 3",
+    "component_id": 14445,
+    "start_time": 1556812800,
+    "end_time": 1556830800,
+    "overview": null,
+    "order_value": 77,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11605,
+      "component_id": 14444,
+      "name": "409 OnRamp Track",
+      "item_ids": [],
+      "session_ids": [61737, 61735, 61736],
+      "map_regions": [{
+        "id": 4594,
+        "map_id": 728,
+        "region_id": 11605,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[601.4775,455.2125],[601.4775,558.195],[677.595,558.195],[677.595,455.2125],[601.4775,455.2125]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6452,
+      "component_id": 14445,
+      "name": "OnRamp",
+      "tag": "ONRAM",
+      "color": "#ffffff"
+    }]
+  }, {
+    "id": 61458,
+    "name": "Turn your logs into actionable data at any scale with AWS",
+    "component_id": 14445,
+    "start_time": 1556816400,
+    "end_time": 1556819100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eAs Enterprises move towards disposable infrastructure, application and platform logs can often be forgotten or lost entirely as servers are replaced. These logs can be an incredible source of information for improving the understanding of your application, troubleshooting application issues, or for triggering external processes such as auto-remediation tasks. However if not captured, this key information is lost as servers are retired or replaced. In this session you will learn how to take action as we use PowerShell and AWS to build a near real-time, serverless data processing platform.\u003c/div\u003e",
+    "order_value": 12,
+    "item_ids": [115234],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [132543],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6430,
+      "component_id": 14445,
+      "name": "In the Cloud",
+      "tag": "CLOUD",
+      "color": "#4a90e2"
+    }]
+  }, {
+    "id": 61487,
+    "name": "Lord of the Configurations",
+    "component_id": 14445,
+    "start_time": 1556816400,
+    "end_time": 1556819100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eAre the developers besieging your script? Doeth the Linux Lords shun thy registry? Those windows hordes won't use anything they can't shoot out of the barrel of their SCCM? Don't panic! One configuration to rule them all, in code to bind the settings, no matter where they hide or whence they came.\u003c/div\u003e\u003cdiv\u003e\u003cbr\u003e\u003c/div\u003e\u003cdiv\u003eCovers the PSFramework configuration system, offering:\u003c/div\u003e\u003cdiv\u003e- Uniform and simple access to configuration data\u003c/div\u003e\u003cdiv\u003e- Easy discoverability with documentation being part of the setting\u003c/div\u003e\u003cdiv\u003e- High flexibility in where the configuration comes from\u003c/div\u003e\u003cdiv\u003e- Simple persistence of settings\u003c/div\u003e\u003cdiv\u003e- Strong control over settings' use\u003c/div\u003e\u003cdiv\u003e\u003cbr\u003e\u003c/div\u003e\u003cdiv\u003eImplement a simple module cache, an entire options menu for your module with change events and input validation, configuration settings for your CI/CD procedures fed by Json configuration files.\u003c/div\u003e\u003cdiv\u003eAll through a single system, with the ability to control the code of other teams uniformly in the way best suited to your workflows.\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 41,
+    "item_ids": [115245],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 131487, 125953, 135331, 135334, 131269, 125949, 121182, 117173, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61447,
+    "name": "The Windows Subsystem for Linux",
+    "component_id": 14445,
+    "start_time": 1556820000,
+    "end_time": 1556822700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eLinux on Windows?!  When asked what developers wanted most on Windows 10, the answer was overwhelmingly for Bash support. The Windows Subsystem for Linux lets developers run Linux environments -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a virtual machine. This lightweight tool makes it simple for developers to get started using Linux tools on Windows.\r\u003cbr\u003e\r\u003cbr\u003eIn this session, we will cover how to use WSL with your favorite Linux tools \u0026 applications and ways to integrate WSL into your Windows development workflow. We'll also dive into the tech magic by explaining how this works under-the-hood.\u003c/div\u003e",
+    "order_value": 1,
+    "item_ids": [115268],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [135732, 135334, 131269, 125966, 126645, 125987, 125949, 121182],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61454,
+    "name": "Monitoring Out, Observability In",
+    "component_id": 14445,
+    "start_time": 1556820000,
+    "end_time": 1556822700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eReading the instrumentation of the applications does not help to understand whole application lifecycle, but observability does.\r\u003cbr\u003eIn this talk, Ebru will go over the tips and tricks to get the applications observable, from the initial idea to the working product.\u003c/div\u003e",
+    "order_value": 8,
+    "item_ids": [115244],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 131487],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61476,
+    "name": "Dungeons \u0026 Dragons \u0026 Development: How Playing Games Makes You a Better IT Pro",
+    "component_id": 14445,
+    "start_time": 1556820000,
+    "end_time": 1556822700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eDungeons and Dragons, as well as numerous other tabletop roleplaying games (TTRPGs) has a lot to teach us about engineering.\r\u003cbr\u003e\r\u003cbr\u003eI'll cover the very basics of what tabletop roleplaying is, then expand on how it helps you practice critical engineering (both software and operations!) skills.\r\u003cbr\u003eI'll cover each of the skills below with an story from real-life play and explain how these lessons translate back into our work as IT Pros using examples from incident response, customer support, and feature implementation.\r\u003cbr\u003e\r\u003cbr\u003e### Interpersonal\r\u003cbr\u003e- Empathy\r\u003cbr\u003e- Collaboration\r\u003cbr\u003e- Communication\r\u003cbr\u003e\r\u003cbr\u003e### Personal\r\u003cbr\u003e- Lateral Thinking\r\u003cbr\u003e- Problem Solving\r\u003cbr\u003e- Investigation\r\u003cbr\u003e\r\u003cbr\u003e### Leadership\r\u003cbr\u003e- Improvisation\r\u003cbr\u003e- Content Generation\r\u003cbr\u003e- Conflict Resolution\r\u003cbr\u003e\r\u003cbr\u003eThis talk is light on technical demos and heavy on culture and workflow, helping folks move towards one of the pillars of DevOps in a meaningful way.\u003c/div\u003e",
+    "order_value": 30,
+    "item_ids": [115262],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131295, 135676, 125953, 135331, 132543, 129549, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61489,
+    "name": "Using DSC resources with Puppet and the dsc_lite module",
+    "component_id": 14445,
+    "start_time": 1556820000,
+    "end_time": 1556822700,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePuppet is a mature config management solution. DSC resources offer the best way to manage Windows servers. Why not combine the two? Take all your favorite DSC resources and use them in Puppet with ease. In this talk I will show how to use just about any DSC resource in Puppet with the dsc_lite module.\u003c/div\u003e",
+    "order_value": 43,
+    "item_ids": [115243],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [105923],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61512,
+    "name": "Lunch",
+    "component_id": 14445,
+    "start_time": 1556823600,
+    "end_time": 1556827200,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eJoin us for one of our famously excellent buffet lunches\u003c/div\u003e",
+    "order_value": 66,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 133522, 135732, 135331, 132543, 131269, 105923, 125966, 125987, 125953, 125949, 121182, 106179, 105982, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11598,
+      "component_id": 14444,
+      "name": "Center Hall A",
+      "item_ids": [],
+      "session_ids": [61730, 61502, 61506, 61510, 61511, 61512, 61513, 61514, 61515],
+      "map_regions": [{
+        "id": 4582,
+        "map_id": 727,
+        "region_id": 11598,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[227.52,34.76],[227.52,330.22],[756.82,330.22],[756.82,34.76],[227.52,34.76]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6432,
+      "component_id": 14445,
+      "name": "Meal",
+      "tag": "MEAL",
+      "color": "#f8e71c"
+    }]
+  }, {
+    "id": 61453,
+    "name": "Look smarter: deliver the work you do in PowerShell in Excel form.",
+    "component_id": 14445,
+    "start_time": 1556827200,
+    "end_time": 1556829900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003ePowerShell is the go-to tool for getting information - particularly about IT systems that we manage. But presenting that information isn't always easy. \r\u003cbr\u003eBut there is a module which reads and writes Excel files from PowerShell. Being able to chart resource usage helps us to see resource hogs. Being able to highlight differences in system configuration can help troubleshooting. A well presented report showing key aspects of system state helps other people in the organization to understand the work that has been done. The module allows people who naturally work in Excel to provide input in Excel format for a task that is carried out in PowerShell.\r\u003cbr\u003eThis session introduces the module, explains its background and will concentrate on real world examples of how it is being used as a key tool in Dev-Ops environments, from auditing system state, to collecting the results of Pester tests, to highlighting possible configuration errors.\u003c/div\u003e",
+    "order_value": 7,
+    "item_ids": [115252],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [133522, 131394, 135732, 125953, 132543],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61455,
+    "name": "Configuring F5 Big-IP with declarative configurations using AS3, Azure DevOps, and Powershell",
+    "component_id": 14445,
+    "start_time": 1556827200,
+    "end_time": 1556829900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eIn this session I will tell my story on trying to solve the problem of configuring the F5 Big-IP appliance. I am able to configure the F5 Big-IP using the AS3 (Application Services Module), which allows the use of declarative configurations to manage VIPs, Pools, Pool Members, iRules, Certs, and much more.  I will also go over the process used to create and manage the configurations through a pipeline using Azure DevOps, Powershell, and Octopus(it might be entirely through Azure DevOps).  In the end,  an attendee will have a solid foundation on being able to explore this path for themselves.\r\u003cbr\u003e\r\u003cbr\u003eTopics I will cover:\r\u003cbr\u003e\r\u003cbr\u003e- What is the AS3(Application Serives Module)?\r\u003cbr\u003e- The basics of the AS3 declaration configuration and how to use the configuration to configure the appliance\r\u003cbr\u003e- How to push the configuration to the appliance\r\u003cbr\u003e- How to use a repository and pipeline to manage and push the configurations with Azure DevOps, Powershell, and Pester\r\u003cbr\u003e- Putting it all together and Q\u0026A\r\u003cbr\u003e\r\u003cbr\u003eThat is the basic overview for this session, more detail and work will be coming over the coming months.\r\u003cbr\u003e\r\u003cbr\u003eThanks for taking the time to review my outline.\r\u003cbr\u003e\r\u003cbr\u003eJim Arruda (Rockarruda)\u003c/div\u003e",
+    "order_value": 9,
+    "item_ids": [115248],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131269, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6428,
+      "component_id": 14445,
+      "name": "Automate All the Things",
+      "tag": "AUTOM",
+      "color": "#b8e986"
+    }]
+  }, {
+    "id": 61474,
+    "name": "Piping data between packaged scripts",
+    "component_id": 14445,
+    "start_time": 1556827200,
+    "end_time": 1556829900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThe idea for this talk came when working on a project for a previous employer.  Working on multiple domains, different executables needed to be run for different domains due to requirements by the security team.  I was having trouble passing data between the exe's due to being unable to directly send data from one exe to the other.  While researching how to fix this, I started looking into using named pipes to move data from one executable to the other.  Taking the data, converting it to an object, then converting the object to base64 string it is possible to move data from one packaged script to the other without having to use temporary files.  While not always of use, during those times when multiple executables have to be used, this method and code can make life simpler.\u003c/div\u003e",
+    "order_value": 28,
+    "item_ids": [115265],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 125966, 121182, 106179],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6431,
+      "component_id": 14445,
+      "name": "PowerShell Language",
+      "tag": "LANG",
+      "color": "#f5a623"
+    }]
+  }, {
+    "id": 61480,
+    "name": "Don't Be Scared of Paranormal Data!",
+    "component_id": 14445,
+    "start_time": 1556827200,
+    "end_time": 1556829900,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003eThis session focuses on what to do with dirty data - how to automatically scrub data files with PowerShell so they're nice and clean for the next function. For example, HR has given you a CSV export to update Active Directory office location, but the file contains multiple spellings for the same location - St. Cloud vs. st cloud vs. Saint Cloud. Learn how to handle these anomalies and standardize them to one clean, unified spelling to maintain consistency across Active Directory. Standardized fields can help with group automation, GPOs and more. By the end of the session, attendees should have a good grasp on how to create a script to normalize data, with several real-world examples and code to clean them.\u003c/div\u003e",
+    "order_value": 34,
+    "item_ids": [115267],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [131394, 135868, 135676, 131487, 135334, 125987, 106928, 105969],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11596,
+      "component_id": 14444,
+      "name": "401",
+      "item_ids": [],
+      "session_ids": [107219, 61449, 61452, 61460, 61461, 61462, 61468, 61476, 61478, 61479, 61480, 61481, 61483, 61488, 61491],
+      "map_regions": [{
+        "id": 4583,
+        "map_id": 728,
+        "region_id": 11596,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[510.435,140.295],[510.435,235.815],[676.1025,235.815],[676.1025,140.295],[510.435,140.295]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6429,
+      "component_id": 14445,
+      "name": "Bits and Bytes",
+      "tag": "MISC",
+      "color": "#d0021b"
+    }]
+  }, {
+    "id": 61732,
+    "name": "IRON SCRIPTER: FACTION BATTLE",
+    "component_id": 14445,
+    "start_time": 1556831700,
+    "end_time": 1556837100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eIt's time for IRON SCRIPTER! Be sure to grab The Summiteer Manual for details!\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 72,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [125953, 106179, 105982],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11595,
+      "component_id": 14444,
+      "name": "404",
+      "item_ids": [],
+      "session_ids": [107218, 61732, 61448, 61454, 61455, 61457, 61472, 61475, 61477, 61482, 61484, 61485, 61487, 61493, 61496, 61498, 61500],
+      "map_regions": [{
+        "id": 4584,
+        "map_id": 728,
+        "region_id": 11595,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[283.575,177.6075],[283.575,288.0525],[422.3775,288.0525],[422.3775,177.6075],[283.575,177.6075]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61733,
+    "name": "IRON SCRIPTER: FACTION DAYBREAK",
+    "component_id": 14445,
+    "start_time": 1556831700,
+    "end_time": 1556837100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eIt's time for IRON SCRIPTER! Don't forget to grab The Summiteer Manual for details!\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 73,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11597,
+      "component_id": 14444,
+      "name": "405",
+      "item_ids": [],
+      "session_ids": [61733, 61456, 61459, 61464, 61465, 61466, 61467, 61470, 61471, 61474, 61489, 61499, 61501],
+      "map_regions": [{
+        "id": 4585,
+        "map_id": 728,
+        "region_id": 11597,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,292.53],[282.0825,404.4675],[420.885,404.4675],[420.885,292.53],[282.0825,292.53]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }, {
+    "id": 61734,
+    "name": "IRON SCRIPTER; FACTION FLAWLESS",
+    "component_id": 14445,
+    "start_time": 1556831700,
+    "end_time": 1556837100,
+    "overview": "\u003cdiv id='main-wrapper' style='padding-bottom:25px;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif'\u003e\u003cdiv\u003eIt's time for IRON SCRIPTER! Don't forget to grab The Summiteer Manual for details!\u003c/div\u003e\u003c/div\u003e",
+    "order_value": 74,
+    "item_ids": [],
+    "capacity": null,
+    "checkin_status": "open",
+    "attendee_ids": [136793, 125987, 105989],
+    "session_exchange": null,
+    "average_rating": null,
+    "rating_count": 0,
+    "property_groups": [],
+    "regions": [{
+      "id": 11594,
+      "component_id": 14444,
+      "name": "406",
+      "item_ids": [],
+      "session_ids": [61734, 61446, 61447, 61450, 61451, 61453, 61458, 61463, 61469, 61473, 61486, 61490, 61492, 61494, 61495, 61497],
+      "map_regions": [{
+        "id": 4586,
+        "map_id": 728,
+        "region_id": 11594,
+        "geo_json": "{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[282.0825,408.945],[282.0825,519.39],[423.87,519.39],[423.87,408.945],[282.0825,408.945]]]}}",
+        "color": "#ADD8E6"
+      }]
+    }],
+    "tracks": [{
+      "id": 6433,
+      "component_id": 14445,
+      "name": "General",
+      "tag": "GEN",
+      "color": "#9013fe"
+    }]
+  }],
+  "meta": {
+    "ret_code": "2701",
+    "ret_message": {
+      "title": "Success",
+      "body": "Message"
+    }
+  }
+}

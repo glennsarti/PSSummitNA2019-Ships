@@ -30,7 +30,13 @@ class Speakers : SHiPSDirectory
 
   [object[]] GetChildItem()
   {
-    return @()
+    $obj = New-Object System.Collections.ArrayList($null)
+
+    (Get-SpeakersObject).items | ForEach-Object -Process {
+      $obj.Add([Speaker]::new($_.name, $_))
+    }
+
+    return $obj;
   }
 }
 
@@ -46,4 +52,46 @@ class Agenda : SHiPSDirectory
   {
     return @()
   }
+}
+
+# Leaf Nodes
+# A Speaker
+[SHiPSProvider(UseCache=$true)]
+class Speaker : SHiPSLeaf
+{
+  [String]$Name;
+  [String]$FirstName;
+  [String]$LastName;
+  [String]$Bio;
+
+  Speaker ([string]$name, [Object]$data): base($name)
+  {
+    $this.PopulateFromData($data)
+  }
+
+  [void] PopulateFromData([Object]$data) {
+    $this.Name = $data.name
+    # VERY basic name splitting
+    $NameArray = $this.Name -split " ", 2
+    $this.FirstName = $NameArray[0]
+    $this.LastName = $NameArray[1]
+    $this.Bio = Remove-HTML -RawString $data.overview
+  }
+}
+
+# Private Functions
+
+$Script:DataSource = Join-Path -Path $PSScriptRoot -ChildPath 'Data'
+
+Function Get-SpeakersObject {
+  if ($Script:SpeakerObject -eq $null) {
+    $Script:SpeakerObject = Get-Content -Path (Join-Path -Path $Script:DataSource -ChildPath 'speakers.json') | ConvertFrom-Json
+  }
+  Write-Output $Script:SpeakerObject
+}
+
+Function Remove-HTML($RawString) {
+  $result = $RawString
+  $result = $result -replace '<[^>]+>',''
+  Write-Output $result
 }
