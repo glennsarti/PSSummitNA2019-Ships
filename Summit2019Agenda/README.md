@@ -81,3 +81,9 @@ As per the docs, remember that all SHIPS objects have a constructor with one str
   - Session Titles may contain illegal characters for a Leaf Name
 
 * Also added to the DAG, Agenda by category e.g. Automate All the Things or General
+
+## Step 5
+
+* Add `Get-Content` support to the Leaf objects.  Note that you can't Get-Content on directories
+
+  - Additional method called `[string] GetContent()` which returns a string

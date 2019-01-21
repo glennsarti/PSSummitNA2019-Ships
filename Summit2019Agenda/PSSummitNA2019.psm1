@@ -122,6 +122,13 @@ class AgendaSession : SHiPSLeaf
     $this.End = ConvertFrom-EpochTime -Value $data.end_time
     $this.Location = ($data.regions | Select-Object -First 1 | ForEach-Object { $_.name })
   }
+
+  [string] GetContent()
+  {
+    return "### " + $this.name + "`n`n" + `
+      "Time:" + $this.Start.ToString('hh:mm tt') + "  Location:" + $this.Location + "`n`n" + `
+      $this.Description + "`n`n"
+  }
 }
 
 # A Speaker
@@ -145,6 +152,11 @@ class Speaker : SHiPSLeaf
     $this.FirstName = $NameArray[0]
     $this.LastName = $NameArray[1]
     $this.Bio = Remove-HTML -RawString $data.overview
+  }
+
+  [string] GetContent()
+  {
+    return "# " + $this.Name + "`n`n## Bio`n`n" + $this.Bio
   }
 }
 
