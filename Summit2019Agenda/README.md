@@ -27,3 +27,17 @@ Root
       +- Day 4 - Thu
           ...
 ```
+
+## Step 1
+
+* Create Module Manifest
+
+`RequiredModules = @('SHiPS')`
+
+* Create Module Script file
+
+  - Important `using namespace Microsoft.PowerShell.SHiPS`
+
+  - Create the root object
+
+Just enough so that we can load the module and map a PS Drive
