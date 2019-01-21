@@ -41,3 +41,13 @@ Root
   - Create the root object
 
 Just enough so that we can load the module and map a PS Drive
+
+## Step 2
+
+* Create the first level directories
+
+  - We can now see these directories in the root
+
+As per the docs, remember that all SHIPS objects have a constructor with one string parameter which is unique within the parent
+
+> ... types have a constructor with one string parameter, which represents as a node name. The name is mandatory and must be unique under the same parent node

@@ -12,5 +12,8 @@ New-PSDrive -Name Summit2019 -PSProvider SHiPS -root 'PSSummitNA2019#Summit2019'
 Write-Output "Setting location..."
 Set-Location Summit2019:\ | Out-Null
 
-Write-Output "Example - root object - Nothing here!"
-Get-ChildItem | Measure-Object
+Write-Output "Example - root object"
+Get-ChildItem
+
+Write-Output "`nExample - speakers - Nothing yet"
+Get-ChildItem Summit2019:\Speakers | Measure-Object

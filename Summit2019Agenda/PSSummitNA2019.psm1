@@ -12,6 +12,38 @@ class Summit2019 : SHiPSDirectory
   {
     $obj =  @()
 
+    $obj += [Speakers]::new('Speakers');
+    $obj += [Agenda]::new('Agenda');
+
     return $obj;
+  }
+}
+
+# Directory Nodes
+# Speakers
+[SHiPSProvider(UseCache=$true)]
+class Speakers : SHiPSDirectory
+{
+  Speakers([string]$name): base($name)
+  {
+  }
+
+  [object[]] GetChildItem()
+  {
+    return @()
+  }
+}
+
+# Agenda
+[SHiPSProvider(UseCache=$true)]
+class Agenda : SHiPSDirectory
+{
+  Agenda([string]$name): base($name)
+  {
+  }
+
+  [object[]] GetChildItem()
+  {
+    return @()
   }
 }
