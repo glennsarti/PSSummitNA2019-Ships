@@ -22,4 +22,7 @@ Description = 'A PowerShell Provider for the PowerShell and DevOps Global Summit
 # Modules that must be imported into the global environment prior to importing this module
 RequiredModules = @('SHiPS')
 
+# Format files (.ps1xml) to be loaded when importing this module
+FormatsToProcess = @('PSSummitNA2019.Format.ps1xml')
+
 }

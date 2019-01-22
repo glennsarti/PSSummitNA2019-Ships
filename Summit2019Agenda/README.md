@@ -102,3 +102,19 @@ As per the docs, remember that all SHIPS objects have a constructor with one str
   - On Directories you can create properties to simulate Get-Content
 
   - You can instantiate Leafs and Directories yourself
+
+## Step 7
+
+* Add a formatting file
+
+* Modify the module manifest to use the formatting file
+
+`FormatsToProcess = @('PSSummitNA2019.Format.ps1xml')`
+
+* Use the class names used in SHiPS to create your own default formatting for tables, lists etc.
+
+[about_format.ps1xml](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_format.ps1xml?view=powershell-5.1)
+
+[Writing a PowerShell Formatting File](https://docs.microsoft.com/en-us/powershell/developer/format/writing-a-powershell-formatting-file)
+
+[SHiPS Default formatting](https://github.com/PowerShell/SHiPS/blob/master/src/Modules/SHiPS.formats.ps1xml)

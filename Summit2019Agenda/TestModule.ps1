@@ -4,6 +4,13 @@ Write-Output "Import modules..."
 Import-Module  SHiPS
 Import-Module .\PSSummitNA2019.psd1
 
+# Mimic the default display format of SHiPS objects
+function ConvertTo-OldFormat {
+  [CmdletBinding()]
+  param([parameter(Mandatory=$true,ValueFromPipeline=$true)] [Object]$Value)
+  Process { $Value | Select-Object -Property @{Name="Mode"; Expression = {$_.SSItemMode}},@{Name="Name"; Expression = {$_.PSChildName}} }
+}
+
 # Create a new PS Drive
 Write-Output "Creating drive..."
 New-PSDrive -Name Summit2019 -PSProvider SHiPS -root 'PSSummitNA2019#Summit2019' | Out-Null
@@ -12,36 +19,20 @@ New-PSDrive -Name Summit2019 -PSProvider SHiPS -root 'PSSummitNA2019#Summit2019'
 Write-Output "Setting location..."
 Set-Location Summit2019:\ | Out-Null
 
-Write-Output "`nExample - Speaker properties"
-Get-Item 'Summit2019:\Speakers\Glenn Sarti' | Select *
+Write-Output "`nExample - Speakers - Before"
+Get-ChildItem 'Summit2019:\Speakers' | Select -First 3 | ConvertTo-OldFormat | Format-Table
 
-Write-Output "`nExample - Speaker content"
-if ($PSVersionTable.PSVersion.Major -ge 6) {
-  Get-Content 'Summit2019:\Speakers\Glenn Sarti' | Show-Markdown
-} else {
-  Get-Content 'Summit2019:\Speakers\Glenn Sarti'
-}
+Write-Output "`nExample - Speakers - After"
+Get-ChildItem 'Summit2019:\Speakers' | Select -First 3 | Format-Table
 
-Write-Output "`nExample - Agenda properties"
-Get-Item 'Summit2019:\Agenda\Day 2 - Tue\61451' | Select *
+Write-Output "`nExample - Agenda Summary - Before"
+Get-ChildItem 'Summit2019:\Agenda' | ConvertTo-OldFormat | Format-Table
 
-Write-Output "`nExample - Agenda content"
-if ($PSVersionTable.PSVersion.Major -ge 6) {
-  Get-Content 'Summit2019:\Agenda\Day 2 - Tue\61451' | Show-Markdown
-} else {
-  Get-Content 'Summit2019:\Agenda\Day 2 - Tue\61451'
-}
+Write-Output "`nExample - Agenda Summary - Before"
+Get-ChildItem 'Summit2019:\Agenda' | Format-Table
 
-Write-Output "`nExample - Daily Agenda "
-if ($PSVersionTable.PSVersion.Major -ge 6) {
-  (Get-Item 'Summit2019:\Agenda\Day 2 - Tue').AgendaMarkdown | Show-Markdown
-} else {
-  (Get-Item 'Summit2019:\Agenda\Day 2 - Tue').AgendaMarkdown
-}
+Write-Output "`nExample - Agenda schedule - Before"
+Get-ChildItem 'Summit2019:\Agenda\In the Cloud' | Sort-Object -Property Start | Select-Object -First 3 | ConvertTo-OldFormat | Format-List
 
-# Write-Output "`nExample - Daily Agenda to view in code"
-# $agendaMd = Join-Path -Path $ENV:Temp -ChildPath 'agenda.md'
-# Write-Host $agendaMd
-# (Get-Item 'Summit2019:\Agenda\Day 2 - Tue').AgendaMarkdown | Set-Content -Path $agendaMd
-# & code $agendaMd
-
+Write-Output "`nExample - Agenda schedule - After"
+Get-ChildItem 'Summit2019:\Agenda\In the Cloud' | Sort-Object -Property Start | Select-Object -First 3 | Format-List
