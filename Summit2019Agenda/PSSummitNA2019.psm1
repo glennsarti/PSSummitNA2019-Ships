@@ -78,6 +78,7 @@ class AgendaTrackSummary : SHiPSDirectory
 {
   [String]$Name;
   [Int]$Sessions;
+  [String]$AgendaMarkdown
   Hidden [Hashtable]$Filter;
 
   AgendaTrackSummary([string]$name, [Hashtable]$filter): base($name)
@@ -85,6 +86,31 @@ class AgendaTrackSummary : SHiPSDirectory
     $this.Name = $name
     $this.Filter = $filter
     $this.Sessions = (Get-Sessions -Filter $this.Filter | Measure-Object).Count;
+    $this.AgendaMarkdown = $this.CreateMarkdown()
+  }
+
+  Hidden [string] CreateMarkdown() {
+    $markdown = ""
+    $lastDay = -1
+    $lastStartTime = ""
+    Get-Sessions -Filter $this.Filter | Sort-Object -Property start_time | ForEach-Object {
+      $start = ConvertFrom-EpochTime -Value $_.start_time
+      if ($lastDay -ne $start.Day) {
+        $markdown += "# " + $start.ToString('ddd, d MMM') + "`n`n"
+        $lastDay = $start.Day   # It's a new day!
+        $lastStartTime = ""
+      }
+      if ($lastStartTime -ne $start.ToString('h:mm tt')) {
+        $markdown += "## " + $start.ToString('h:mm tt') + "`n`n"
+        $lastStartTime = $start.ToString('h:mm tt')
+      }
+
+      $obj =  [AgendaSession]::new($_.id, $_)
+      $markdown += $obj.GetContent() + "`n`n"
+    }
+
+    if ($markdown -eq "") { $markdown = 'No agenda'}
+    return $markdown
   }
 
   [object[]] GetChildItem()
@@ -108,6 +134,7 @@ class AgendaSession : SHiPSLeaf
   [datetime]$End;
   [String]$Location;
   [String]$Description;
+  [String]$Speakers
 
   Hidden [Object] $Data
 
@@ -121,12 +148,18 @@ class AgendaSession : SHiPSLeaf
     $this.Start = ConvertFrom-EpochTime -Value $data.start_time
     $this.End = ConvertFrom-EpochTime -Value $data.end_time
     $this.Location = ($data.regions | Select-Object -First 1 | ForEach-Object { $_.name })
+
+    $this.Speakers = $this.Data.item_ids | ForEach-Object -Process {
+      $SpeakerID = $_
+      Write-Output (Get-SpeakersObject).items | Where-Object { $_.id -eq $SpeakerId } | ForEach-Object { Write-Output $_.name }
+    }
   }
 
   [string] GetContent()
   {
-    return "### " + $this.name + "`n`n" + `
-      "Time:" + $this.Start.ToString('hh:mm tt') + "  Location:" + $this.Location + "`n`n" + `
+    return "### " + $this.Name + "`n`n" + `
+      "Time: " + $this.Start.ToString('hh:mm tt') + "  Location: " + $this.Location + `
+      "  Speakers: " + ($this.Speakers -join ", ") + "`n`n" + `
       $this.Description + "`n`n"
   }
 }
@@ -139,6 +172,17 @@ class Speaker : SHiPSLeaf
   [String]$FirstName;
   [String]$LastName;
   [String]$Bio;
+  [String[]]$SessionIDs;
+  [String[]]$Sessions;
+  [int]$NumSessions;
+  [String[]]$SessionTimes;
+
+  Speaker ([Int]$Id)
+  {
+    (Get-SpeakersObject).items | ForEach-Object -Process {
+      if ($_.id -eq $Id) { $this.PopulateFromData($_) }
+    }
+  }
 
   Speaker ([string]$name, [Object]$data): base($name)
   {
@@ -152,11 +196,26 @@ class Speaker : SHiPSLeaf
     $this.FirstName = $NameArray[0]
     $this.LastName = $NameArray[1]
     $this.Bio = Remove-HTML -RawString $data.overview
+
+    $this.Sessions = @()
+    $this.SessionIDs = @()
+    $this.SessionTimes = @()
+    Get-Sessions -Filter @{ 'Speaker' = $data.Id} | ForEach-Object {
+      $this.Sessions += $_.name
+      $start = (ConvertFrom-EpochTime -Value $_.start_time).ToString("d MMM, hh:mm tt")
+      $this.SessionIDs += $_.id
+      $this.SessionTimes += $start
+    }
+    $this.NumSessions = $this.Sessions.Count
   }
 
   [string] GetContent()
   {
-    return "# " + $this.Name + "`n`n## Bio`n`n" + $this.Bio
+    $content = "# " + $this.Name + "`n`n## Bio`n`n" + $this.Bio + "`n`n## Sessions"
+    For ($i = 0; $i -lt $this.SessionTimes.Count; $i++) {
+      $content += "`n`n - (" + $this.SessionTimes[$i] + ") " + $this.Sessions[$i]
+    }
+    return $content
   }
 }
 

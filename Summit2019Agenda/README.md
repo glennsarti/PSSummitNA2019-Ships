@@ -87,3 +87,18 @@ As per the docs, remember that all SHIPS objects have a constructor with one str
 * Add `Get-Content` support to the Leaf objects.  Note that you can't Get-Content on directories
 
   - Additional method called `[string] GetContent()` which returns a string
+
+## Step 6
+
+* Add cross leaf connections
+
+  - Must be very careful with connecting directories that you don't create circular references e.g.
+      `An AgendaSession has speakers` but also `A Speaker has AgendaSessions`, so you could end up in a loop
+
+  - However you can surface properties to the user that gives them hints to links but not creating a direct link.
+
+    > Unfortunately right now, Leafs and Directories don't know "where" they are e.g. you can't get the PSDrive name so you can't create direct links, just hints
+
+  - On Directories you can create properties to simulate Get-Content
+
+  - You can instantiate Leafs and Directories yourself
