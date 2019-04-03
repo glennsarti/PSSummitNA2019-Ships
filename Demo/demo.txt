@@ -1,0 +1,8 @@
+Import-Module ..\Summit2019Agenda\PSSummitNA2019.psd1
+New-PSDrive -Name Summit2019 -PSProvider SHiPS -root 'PSSummitNA2019#Summit2019'
+Set-Location Summit2019:\ | Out-Null
+gci Summit2019:\
+gci Summit2019:\Speakers
+get-item ".\Speakers\Glenn Sarti" | fl
+gci Summit2019:\Agenda
+get-item 'Summit2019:\Agenda\Day 3 - Wed\61497'
